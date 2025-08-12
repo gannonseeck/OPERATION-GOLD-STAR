@@ -1,0 +1,24 @@
+{
+  "name": "operation-gold-star",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "axios-retry": "^3.5.1",
+    "bottleneck": "^2.19.5",
+    "express": "^4.18.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "@types/node": "^18.19.31",
+    "axios-mock-adapter": "^1.21.2",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.4.5",
+    "@types/express": "^4.17.21"
+  }
+}
